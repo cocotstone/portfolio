@@ -2,6 +2,15 @@
 <html>
 <head>
 <title>About ME</title>
+ 
+ <script>
+		function m(e){
+			var bx = document.getElementById("box");
+			bx.style.left = e.pageX;
+			bx.style.top = e.pageY;
+		}
+	</script>
+ 
  <style>
  body {
  background-image: url("https://netdna.webdesignerdepot.com/uploads/2013/04/Dvdp4.gif");
@@ -19,8 +28,10 @@
   
  </style>
 </head>
-<body background="http://glitter-graphics.com/images/empty.gif">
-
+<body background="http://glitter-graphics.com/images/empty.gif" onmousemove="m(event)">
+  
+ <div id="box" style="background-color:#990000; width:20px; height:20px; position:absolute;" />
+ 
  <header>
    <h1>About Me</h1>
 </header>
@@ -62,7 +73,9 @@
  <p style="color:green;"> 6/30/2017: A list is a series of unorganized data. I only find it useful if you need some kind of random generator. The smaller groups worked better, because they got distracted less. I think the first group for using list's we worked the best. This is because we were independent, and I like working independently.</p>
  
  <p style="color:green;"> 7/5/2017: <img src="CCAB2CAF-0576-49DD-B703-730FEB4B304B.JPG" width="500" > My ideas of robotics changed by identifying what a robot can be. I'm excited to see what hard tasks robots can take over. I'm nervous robots will take over the world. Our group for circuits worked well together because we all had knowledge of circuits beforehand. Next tim we could make a better use of our time.</p>
- 
+
+ <p style="color:green;" > 7/6/2017:  Manuela's work and Ayanna's work both have robotics in common. They both love creating robots for fun.
+  
  </div>
 </body>
 </html> 
